@@ -4,14 +4,7 @@
     android:padding="24dp"
     android:background="#EAF2FF">
 
-    <ImageView
-        android:id="@+id/imgLogin"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:src="@drawable/login_icon"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp" />
-
+    
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
@@ -20,9 +13,7 @@
         android:textSize="26sp"
         android:textStyle="bold"
         android:textColor="#1E3A8A"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/imgLogin"
-        android:layout_marginTop="20dp" />
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:id="@+id/etUsername"
