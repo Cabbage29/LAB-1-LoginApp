@@ -2,20 +2,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="24dp"
-    android:background="#EAF2FF"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="24dp">
+    android:background="#EAF2FF">
 
     <TextView
-    android:id="@+id/tvTitle"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Login Page"
-    android:textSize="26sp"
-    android:textStyle="bold"
-    android:textColor="#1E3A8A"
-    android:layout_centerHorizontal="true"/>
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Page"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#1E3A8A"
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:id="@+id/etUsername"
@@ -42,7 +39,6 @@
         android:backgroundTint="#2563EB"
         android:textColor="#FFFFFF"
         android:layout_below="@id/etPassword"
-        android:layout_marginTop="30dp"/>
-      
+        android:layout_marginTop="30dp" />
 
 </RelativeLayout>
